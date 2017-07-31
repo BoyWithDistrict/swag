@@ -61,14 +61,15 @@ header {
     font-size: 48px;    
     color: #fff;
     margin: 37px 0px 0px 43px;
-    display: inline-block;
+    display: block;
+    width: 340px;
     float: left;
     opacity: 0.90;
 }
 
 .menu {
-    margin: 41px 0px 0px 39vw;
-    display: inline-block;
+    margin: 41px 0px 0px 630px;
+    display: block;
     color: #fff;
     font-family: HelveticaMedium, sans-serif;
     font-size: 22px;
@@ -81,8 +82,7 @@ header {
     text-decoration: none;
     display: inline-block;
     margin-left: 46px;
-    padding-bottom: 0px;
-    height: auto;
+    height: 35px;
 
 }
 
@@ -106,3 +106,13 @@ header {
     height: 45px;
 }
 
+.boxxx {
+    color: #fff;
+    height: 100px;
+    margin-top: 455px;
+     margin-left: 100px;
+}
+
+li {
+    
+}
