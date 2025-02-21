@@ -1,0 +1,466 @@
+{
+  "Common": {
+    "Body": {
+      "value": {
+        "fontFamily": "{Common.fontFamilyInter}",
+        "fontWeight": "{Regular}",
+        "fontSize": "{bodyFontSize}",
+        "lineHeight": "20px"
+      },
+      "type": "typography"
+    },
+    "fontFamilyInter": {
+      "value": "Inter",
+      "type": "fontFamilies"
+    },
+    "Brand": {
+      "brandColor1": {
+        "value": "#2e2e2e",
+        "type": "color"
+      },
+      "brandColor2": {
+        "value": "#242424",
+        "type": "color"
+      },
+      "brandColor3": {
+        "value": "#0B0B0B",
+        "type": "color"
+      }
+    },
+    "Text": {
+      "Dark": {
+        "value": "#0b0b0b",
+        "type": "color"
+      },
+      "Gray": {
+        "value": "#767676",
+        "type": "color"
+      },
+      "Error": {
+        "value": "{Common.Critical.Default}",
+        "type": "color"
+      }
+    },
+    "Fill": {
+      "white": {
+        "value": "#fff",
+        "type": "color"
+      },
+      "lightGray": {
+        "value": "#E7E7E7",
+        "type": "color"
+      }
+    },
+    "Critical": {
+      "Default": {
+        "value": "#FF0000",
+        "type": "color"
+      }
+    },
+    "borderRadiusSmall": {
+      "value": "4px",
+      "type": "borderRadius"
+    },
+    "borderRadiusMedium": {
+      "value": "8px",
+      "type": "borderRadius"
+    },
+    "borderRadiusLarge": {
+      "value": "12x",
+      "type": "borderRadius"
+    },
+    "borderRadiusXLarge": {
+      "value": "16px",
+      "type": "borderRadius"
+    },
+    "H1": {
+      "value": {
+        "fontFamily": "{Common.fontFamilyInter}",
+        "fontWeight": "{Bold}",
+        "fontSize": "{h1FontSize}",
+        "lineHeight": "54"
+      },
+      "type": "typography"
+    },
+    "H2": {
+      "value": {
+        "fontFamily": "{Common.fontFamilyInter}",
+        "fontWeight": "{Bold}",
+        "fontSize": "{h2FontSize}",
+        "lineHeight": "42"
+      },
+      "type": "typography"
+    },
+    "H3": {
+      "value": {
+        "fontFamily": "{Common.fontFamilyInter}",
+        "fontWeight": "{SemiBold}",
+        "fontSize": "{h3FontSize}",
+        "lineHeight": "36"
+      },
+      "type": "typography"
+    },
+    "H4": {
+      "value": {
+        "fontFamily": "{Common.fontFamilyInter}",
+        "fontWeight": "{SemiBold}",
+        "fontSize": "{h4FontSize}",
+        "lineHeight": "32"
+      },
+      "type": "typography"
+    },
+    "Comment": {
+      "value": {
+        "fontFamily": "{Common.fontFamilyInter}",
+        "fontWeight": "{Regular}",
+        "fontSize": "{commentFontSize}",
+        "lineHeight": "16"
+      },
+      "type": "typography"
+    },
+    "h1LineHeight": {
+      "value": "56",
+      "type": "lineHeights"
+    },
+    "h2LineHeight": {
+      "value": "44px",
+      "type": "lineHeights"
+    },
+    "h3LineHeight": {
+      "value": "36px",
+      "type": "lineHeights"
+    },
+    "h4LineHeight": {
+      "value": "32px",
+      "type": "lineHeights"
+    },
+    "bodyLineHeight": {
+      "value": "20",
+      "type": "lineHeights"
+    },
+    "commentLineHeight": {
+      "value": "16px",
+      "type": "lineHeights"
+    }
+  },
+  "Light": {
+    "value": "300",
+    "type": "fontWeights"
+  },
+  "Regular": {
+    "value": "400",
+    "type": "fontWeights"
+  },
+  "Medium": {
+    "value": "500",
+    "type": "fontWeights"
+  },
+  "SemiBold": {
+    "value": "600",
+    "type": "fontWeights"
+  },
+  "Bold": {
+    "value": "700",
+    "type": "fontWeights"
+  },
+  "ExtraBold": {
+    "value": "800",
+    "type": "fontWeights"
+  },
+  "Black": {
+    "value": "900",
+    "type": "fontWeights"
+  },
+  "Components": {
+    "Buttons": {
+      "Primary": {
+        "bgColor": {
+          "Default": {
+            "value": "{Common.Brand.brandColor1}",
+            "type": "color"
+          },
+          "Hover": {
+            "value": "{Common.Brand.brandColor2}",
+            "type": "color"
+          },
+          "Touch": {
+            "value": "{Common.Brand.brandColor3}",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "#E7E7E7",
+            "type": "color"
+          }
+        },
+        "borderColor": {
+          "Default": {
+            "value": "#FFFFFF0",
+            "type": "color"
+          },
+          "Hover": {
+            "value": "#FFFFFF0",
+            "type": "color"
+          },
+          "Touch": {
+            "value": "#FFFFFF0",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "#FFFFFF0",
+            "type": "color"
+          }
+        },
+        "textColor": {
+          "Default": {
+            "value": "{Common.Fill.white}",
+            "type": "color"
+          },
+          "Hover": {
+            "value": "{Common.Fill.white}",
+            "type": "color"
+          },
+          "Touch": {
+            "value": "{Common.Fill.white}",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "{Common.Text.Gray}",
+            "type": "color"
+          }
+        }
+      },
+      "Secondary": {
+        "bgColor": {
+          "Default": {
+            "value": "{Common.Fill.white}",
+            "type": "color"
+          },
+          "Hover": {
+            "value": "#F8F8F8",
+            "type": "color"
+          },
+          "Touch": {
+            "value": "#F3F3F3",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "{Common.Fill.white}",
+            "type": "color"
+          }
+        },
+        "borderColor": {
+          "Default": {
+            "value": "{Common.Brand.brandColor1}",
+            "type": "color"
+          },
+          "Hover": {
+            "value": "{Common.Brand.brandColor2}",
+            "type": "color"
+          },
+          "Touch": {
+            "value": "{Common.Brand.brandColor3}",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "{Common.Fill.lightGray}",
+            "type": "color"
+          }
+        },
+        "textColor": {
+          "Default": {
+            "value": "{Common.Text.Dark}",
+            "type": "color"
+          },
+          "Hover": {
+            "value": "{Common.Text.Dark}",
+            "type": "color"
+          },
+          "Touch": {
+            "value": "{Common.Text.Dark}",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "{Common.Text.Gray}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "Inputs": {
+      "bgColor": {
+        "Default": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Common.Fill.white}",
+          "type": "color"
+        },
+        "Touch": {
+          "value": "{Common.Fill.white}",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "{Common.Fill.white}",
+          "type": "color"
+        },
+        "FocusHover": {
+          "value": "{Common.Fill.white}",
+          "type": "color"
+        },
+        "FocusTouch": {
+          "value": "{Common.Fill.white}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{Common.Fill.lightGray}",
+          "type": "color"
+        },
+        "Error": {
+          "value": "{Common.Fill.white}",
+          "type": "color"
+        }
+      },
+      "borderColor": {
+        "Default": {
+          "value": "#CCCCCC",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "#9E9E9E",
+          "type": "color"
+        },
+        "Touch": {
+          "value": "#7C7C7C",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "{Common.Brand.brandColor1}",
+          "type": "color"
+        },
+        "FocusHover": {
+          "value": "{Common.Brand.brandColor2}",
+          "type": "color"
+        },
+        "FocusTouch": {
+          "value": "{Common.Brand.brandColor3}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "#CCCCCC",
+          "type": "color"
+        },
+        "FocusError": {
+          "value": "{Common.Critical.Default}",
+          "type": "color"
+        }
+      },
+      "textColor": {
+        "Default": {
+          "value": "{Common.Text.Gray}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Common.Text.Gray}",
+          "type": "color"
+        },
+        "Touch": {
+          "value": "{Common.Text.Gray}",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "{Common.Text.Gray}",
+          "type": "color"
+        },
+        "FocusHover": {
+          "value": "{Common.Text.Gray}",
+          "type": "color"
+        },
+        "FocusTouch": {
+          "value": "{Common.Text.Gray}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{Common.Text.Gray}",
+          "type": "color"
+        },
+        "Error": {
+          "value": "{Common.Text.Gray}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Component": {
+    "buttonText": {
+      "value": {
+        "fontFamily": "{Common.fontFamilyInter}",
+        "fontWeight": "{Regular}",
+        "fontSize": "{btnFontSize}",
+        "lineHeight": "{Component.btnLineHeight}"
+      },
+      "type": "typography"
+    },
+    "btnBorderRadius": {
+      "value": "{Common.borderRadiusLarge}",
+      "type": "borderRadius"
+    },
+    "inputBorderRadius": {
+      "value": "{Common.borderRadiusLarge}",
+      "type": "borderRadius"
+    },
+    "toggleBorderRadius": {
+      "value": "{Common.borderRadiusLarge}",
+      "type": "borderRadius"
+    },
+    "inputText": {
+      "value": {
+        "fontFamily": "{Common.fontFamilyInter}",
+        "fontWeight": "{Regular}",
+        "fontSize": "{inputFontSize}",
+        "lineHeight": "{Component.inputLineHeight}"
+      },
+      "type": "typography"
+    },
+    "btnLineHeight": {
+      "value": "16px",
+      "type": "lineHeights"
+    },
+    "inputLineHeight": {
+      "value": "16px",
+      "type": "lineHeights"
+    }
+  },
+  "bodyFontSize": {
+    "value": "14px",
+    "type": "fontSizes"
+  },
+  "commentFontSize": {
+    "value": "12px",
+    "type": "fontSizes"
+  },
+  "h4FontSize": {
+    "value": "24px",
+    "type": "fontSizes"
+  },
+  "h3FontSize": {
+    "value": "28px",
+    "type": "fontSizes"
+  },
+  "h2FontSize": {
+    "value": "34px",
+    "type": "fontSizes"
+  },
+  "h1FontSize": {
+    "value": "42px",
+    "type": "fontSizes"
+  },
+  "btnFontSize": {
+    "value": "14px",
+    "type": "fontSizes"
+  },
+  "inputFontSize": {
+    "value": "14px",
+    "type": "fontSizes"
+  }
+}
